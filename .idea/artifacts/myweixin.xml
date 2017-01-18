@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="myweixin">
+    <output-path>$PROJECT_DIR$/out/artifacts/myweixin</output-path>
+    <root id="archive" name="myweixin.war">
+      <element id="artifact" artifact-name="myweixin:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="dom4j-1.6.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
